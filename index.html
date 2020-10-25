@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
+    <title>Quiz Start</title>
+</head>
+<body>
+    <div class="scores"><a href="./SecondPage.html">View Highscores</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+        <div id="start-screen" class="start">
+            <h1>You Have Been Called To Take The Coding Dare</h1>
+            <h3>Proceed at your own risk &#128520</h3>
+            <p class="rules-start">Here are the rules: </p>
+            <ul id="rules-list">
+                <li>Answer questions within the time limit (look upper right)</li>
+                <li>You lose ten seconds for every wrong answer</li>
+                <li>If you ready, activate the onclick event below</li>
+            </ul>
+            <button id="start-button">Enter</button> 
+        </div>
+    </div>
+    
+        <div id="quizQuest" class="hide">
+            <h2 id="quizQuest-question"></h2>
+            <div id="options" class="options"></div>
+        </div>
+        
+        <div id="end-screen" class="hide">
+            <h2>You survived</h2>
+            <p>Tokens won: <span id="final-score"></span></p>
+            <p>
+                Enter Name: <input type="text" id="name" max="3" />
+                <button id="submit">Submit</button>
+            </p>
+        </div>
+        <div id="feedback" class="feedback hide"></div>
+    </div>
+    <script src="./js/QuizLogic.js"></script>
+    <script src="./js/QuizQuestions.js"></script>
+
+    <!-- 
+        Pseudo code for Quiz Code: 
+        1. Quiz questions: 5 of them with 4 options 
+        2. sfx for correct and wrong answers 
+        3. CSS style sheets: bootstrap 
+        4. JS sheet : 3 (one for the Questions, one for logic, one for the scores )
+        5. files for the organizing different sheets 
+        6. Create index file for the page layout. 
+        7. JS: I need the buttons moved over to JS, create the variables, create functions for each of the variables 
+        8. Understand timer for JS. Timer keeps counting down
+        9. Once an answer is clicked>>an text content message displays>>>it moves to the next question>>>
+        10. A score is kept as question is answered. 
+        11. The scores are kept in local storage (have it get them out to display) >> for highscores 
+        13. You can play again once done. 
+    -->
+
+
+</body>
+</html>
