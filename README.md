@@ -21,7 +21,7 @@ The API code quiz accomplishes the following:
 ## Mock-up 
 
 The following animarion demostrates the functionality: 
-![code quiz](Code_Quiz_Demo.gif)
+![code quiz](./Demo/Code_Quiz_Demo.gif)
 
 ## Credits 
 
