@@ -11,9 +11,9 @@ let quizQuest = [
     answer: "Interactive vs Static",
     }, 
     {
-        questions: "I'm singing' in the rain, just singin' in the rain...",
-        options: ["La La Land", "Into the woods", "Rent", "Singin' in the rain"],
-        answer: "Singin' in the rain",
+    questions: "I'm singing' in the rain, just singin' in the rain...",
+    options: ["La La Land", "Into the woods", "Rent", "Singin' in the rain"],
+    answer: "Singin' in the rain",
     }, 
     {
     questions: "Things that JavaScript can do:",
