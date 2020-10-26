@@ -9,7 +9,7 @@ A timed coding quiz with multiple-choice questions. This app runs on HTML5 brows
 
 ## API Code Quiz 
 
-The API code quiz accomplishes the folowing: 
+The API code quiz accomplishes the following: 
 
 - Start button kickstarts the quiz
 - Timer starts and a question appears
@@ -21,4 +21,31 @@ The API code quiz accomplishes the folowing:
 ## Mock-up 
 
 The following animarion demostrates the functionality: 
-![code quiz}()
+![code quiz](./Code_Quiz_Demo.gif)
+
+## Credits 
+
+1. Trilogy Education Services, a 2u, Inc. brand. 
+2. Sound effects downloaded from zapsplat.com 
+3. Background image downloaded from svgbackground.com 
+4. Google Fonts 
+
+
+## Badges 
+
+![JavaScript](https://img.shields.io/badge/JavaScript-30.1%25-yellow)
+![HTML](https://img.shields.io/badge/HTML-47.8%25-red)
+![CSS](https://img.shields.io/badge/CSS-22.1%25-blue)
+
+
+## Tests 
+
+To test application, run it on any HTML5 supported browser, click 'enter' button and run the quiz as demonstrated in the mock up above.
+
+
+## License 
+
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Somelina Obiechina 
+
+
