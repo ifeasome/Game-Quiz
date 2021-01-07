@@ -21,6 +21,7 @@ The API code quiz accomplishes the following:
 ## Mock-up
 
 The following animarion demostrates the functionality:
+</br>
 ![code quiz](./Demo/Game_Quiz.gif)
 
 ## Credits
@@ -39,7 +40,7 @@ The following animarion demostrates the functionality:
 ## Tests
 
 To test application, run it on any HTML5 supported browser, click 'enter' button and run the quiz as demonstrated in the mock up above.
-![LiveLink](https://ifeasome.github.io/Game-Quiz/)
+[LiveLink](https://ifeasome.github.io/Game-Quiz/)
 
 ## License
 
